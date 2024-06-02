@@ -1,1 +1,35 @@
+using System;
 
+class MovieTicketPrice
+{
+    static void Main(string[] args)
+    {
+        // Define standard and discounted prices
+        const double standardPrice = 10.0;
+        const double discountedPrice = 7.0;
+
+        // Prompt user for age
+        Console.WriteLine("Enter your age: ");
+
+        // Read user input and convert to integer
+        int age;
+        while (!int.TryParse(Console.ReadLine(), out age))
+        {
+            Console.WriteLine("Invalid input. Please enter your age as a number: ");
+        }
+
+        // Calculate ticket price based on age
+        double ticketPrice;
+        if (age >= 65 || age <= 12)
+        {
+            ticketPrice = discountedPrice;
+        }
+        else
+        {
+            ticketPrice = standardPrice;
+        }
+
+        // Display the ticket price
+        Console.WriteLine($"Your ticket price is: GHC{ticketPrice:0.00}");
+    }
+}
