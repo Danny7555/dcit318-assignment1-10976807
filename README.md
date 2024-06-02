@@ -1,41 +1,68 @@
 # C# Console Applications
-<code> Student ID: <b>10945821</b>  Student Name: <b>OBUOBI AYIM DAVID</b> </code><p>
-This repository contains three C# console applications: Grade Calculator, Ticket Price Calculator, and Triangle Type Identifier. Each application is designed to perform a specific task based on user input.
+<code> Student ID: <b>10976807</b>  Student Name: <b>Daniella Asiedu</b> </code><p>
+# C# Projects
 
-## Applications
+This repository contains three C# console applications:
 
-### 1. Grade Calculator
-A simple program that prompts the user to enter a numerical grade between 0 and 100 and then displays the corresponding letter grade.
-
-#### Grading Scale
-- 90 and above: A
-- 80-89: B
-- 70-79: C
-- 60-69: D
-- Below 60: F
-
-#### Usage
-1. Navigate to the `GradeCalculator` directory.
-2. Run the application using the command: <br>
-   <code>dotnet run </code><br>
- Same applies to TicTicket Price Calculator, and Triangle Type Identifier.
+1. **Grade Calculator**
+2. **Ticket Price Calculator**
+3. **Triangle Type Identifier**
    
-### 2. Ticket Price Calculator
-A program that calculates the price of a movie ticket based on the user's age. Regular ticket price is GHC10, but senior citizens (age 65 and above) and children (age 12 and below) receive a discounted price of GHC7.
+**Grade Calculator**
+This program calculates the letter grade corresponding to a numerical grade entered by the user.
 
-### Usage
-1. Navigate to the `TicketPriceCalculator` directory.
-2. Run the application using the command: <br>
-   <code>dotnet run </code> <br>
+Features:
+Prompts the user to enter a numerical grade between 0 and 100.
+Validates user input to ensure it's within the valid range.
+Calculates the letter grade based on a grading scale:
+90 and above: A
+80-89: B
+70-79: C
+60-69: D
+Below 60: F
+Displays the corresponding letter grade to the user.
+
+Usage:
+Compile the program (instructions specific to your chosen compiler).
+Run the program.
+Enter a numerical grade between 0 and 100 when prompted.
+The program will display the corresponding letter grade.
+
+**Ticket Price Calculator**
+This program calculates the movie ticket price based on the customer's age.
+
+Features:
+Prompts the user to enter their age.
+Validates user input to ensure it's a valid age.
+Calculates the ticket price based on the following criteria:
+Standard price: GHC10 (defined as a constant)
+Discounted price: GHC7 (defined as a constant) for senior citizens (age 65 and above) and children (age 12 and below)
+Displays the calculated ticket price to the user.
+
+Usage:
+Compile the program (instructions specific to your chosen compiler).
+Run the program.
 Enter your age when prompted.
+The program will display the corresponding ticket price.
 
-### 3. Triangle Type Identifier
-A program that determines the type of a triangle based on the lengths of its sides entered by the user. The possible types are Equilateral, Isosceles, and Scalene.
+**Triangle Type Identifier**
+This program determines the type of a triangle based on the lengths of its three sides entered by the user.
 
-### Usage
-1. Navigate to the `TriangleTypeIdentifier` directory.
-2. Run the application using the command: <br>
-   <code>dotnet run</code> <br>
-Enter the lengths of the three sides when prompted.
+Features:
+Prompts the user to enter the lengths of three sides of a triangle.
+Validates user input to ensure the entered lengths can form a valid triangle (triangle inequality).
+Determines the triangle type based on the side lengths:
+Equilateral: All three sides are equal.
+Isosceles: Two sides are equal.
+Scalene: No sides are equal.
+Displays the identified triangle type to the user.
+Usage:
+
+Compile the program (instructions specific to your chosen compiler).
+Run the program.
+Enter the lengths of the three sides of a triangle (one at a time) when prompted.
+The program will display the type of the triangle.
+
+
 
 Github repository: https://github.com/Aristocratjnr/DCIT318-Programming-ll-10945821.git
