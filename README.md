@@ -65,4 +65,4 @@ The program will display the type of the triangle.
 
 
 
-Github repository: https://github.com/Danny7555/dcit318-assignment1-10976807/blob/main/DCIT318%20Programming%20ll.zip
+Github repository: https://github.com/Danny7555/dcit318-assignment1-10976807
